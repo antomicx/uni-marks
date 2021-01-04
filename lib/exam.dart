@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sqflite/sqflite.dart';
 
 class Exam {
   final int id;
@@ -19,7 +18,7 @@ class ExamWidget extends StatelessWidget {
   final String _name;
   final double _mark;
   final int _credits;
-  Function _callback;
+  final Function _callback;
 
   ExamWidget(this._id, this._name, this._mark, this._credits, this._callback);
 
