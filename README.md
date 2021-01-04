@@ -10,3 +10,4 @@ It defines a separate ExamWidget taking care of the rendering phase. The main bo
 * Implement the correct rendering in case of long exam names
 * Implement a search function
 * When deleting an exam, add a SnackBar to confirm the exam has been deleted.
+* Implement alignment of the delete button
